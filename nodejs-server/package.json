@@ -1,0 +1,10 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "Nodejs Server",
+  "main": "index.js",
+  "scripts": {
+        "start": "node server.js"
+  },
+  "license": "ISC"
+}
