@@ -1,0 +1,3 @@
+[submodule "SolutionTestingApp"]
+	path = SolutionTestingApp
+	url = https://github.com/litoco/SmallProjects.git
