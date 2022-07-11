@@ -6,12 +6,13 @@ import android.view.View
 import android.view.ViewTreeObserver
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.LazyListState
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -19,14 +20,10 @@ import androidx.compose.material.Text
 import androidx.compose.material.TextField
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.composed
-import androidx.compose.ui.focus.onFocusEvent
-import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.solutiontestingapp.ui.theme.SolutionTestingAppTheme
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
@@ -52,12 +49,18 @@ fun AppUI() {
     Column (modifier = Modifier.fillMaxSize(1f)) {
         var text by remember { mutableStateOf("") }
         val listScrollStateHolder = rememberLazyListState()
+        val list = (0..99).toList()
         val scope = rememberCoroutineScope()
+        val keyboardVisible by rememberIsKeyboardOpen()
+        var firstVisibleItemIndexedValue by remember { mutableStateOf(0)}
+        var screenSize by remember { mutableStateOf(0)}
+        var scrollOffset by remember{ mutableStateOf(0)}
+
         Box (modifier = Modifier
             .weight(1f)){
             LazyColumn(state = listScrollStateHolder){
-                items(100){ index ->
-                    Text(modifier =  Modifier.fillMaxWidth(1f), text = "Item number: ${index + 1}", textAlign = TextAlign.Center)
+                items(list){ item ->
+                    Text(modifier =  Modifier.fillMaxWidth(1f), text = "Item number: ${item + 1}", textAlign = TextAlign.Center)
                 }
             }
         }
@@ -68,53 +71,26 @@ fun AppUI() {
             label = { Text("Label") },
             modifier = Modifier
                 .fillMaxWidth(1f)
-                .clearFocusOnKeyboardDisappearance(listScrollStateHolder, scope)
+                .focusable(true)
         )
-    }
-}
 
-private fun Modifier.clearFocusOnKeyboardDisappearance(
-    listScrollStateHolder: LazyListState,
-    scope: CoroutineScope
-): Modifier = composed {
-    var isFocused by remember { mutableStateOf(false) }
-    var keyboardAppearedSinceLastFocused by remember { mutableStateOf(false) }
-    var firstVisibleItemIndexedValue by remember { mutableStateOf(0)}
-    var screenSize by remember { mutableStateOf(0)}
-    var scrollOffset by remember{ mutableStateOf(0)}
-
-    if (listScrollStateHolder.layoutInfo.visibleItemsInfo.size - screenSize > 10){
-        screenSize = listScrollStateHolder.layoutInfo.visibleItemsInfo.size
-    }
-
-    if (isFocused) {
-        val isKeyboardOpen by rememberIsKeyboardOpen()
-        val focusManager = LocalFocusManager.current
-        LaunchedEffect(isKeyboardOpen) {
-            if (isKeyboardOpen) {
-                keyboardAppearedSinceLastFocused = true
+        LaunchedEffect(key1 = keyboardVisible){
+            if (listScrollStateHolder.layoutInfo.visibleItemsInfo.size - screenSize > 10){
+                screenSize = listScrollStateHolder.layoutInfo.visibleItemsInfo.size
+            }
+            if(keyboardVisible){
                 firstVisibleItemIndexedValue = listScrollStateHolder.firstVisibleItemIndex
                 scrollOffset = if(screenSize - listScrollStateHolder.layoutInfo.visibleItemsInfo.size > 0) screenSize + 1 - listScrollStateHolder.layoutInfo.visibleItemsInfo.size else 0
                 scope.launch {
                     listScrollStateHolder.animateScrollToItem(firstVisibleItemIndexedValue + scrollOffset)
                 }
-            } else if (keyboardAppearedSinceLastFocused) {
-                focusManager.clearFocus()
-                if (listScrollStateHolder.firstVisibleItemIndex + screenSize + 2 < 100) {
+            } else{
+                if (listScrollStateHolder.firstVisibleItemIndex + screenSize + 2 < list.size) {
                     firstVisibleItemIndexedValue = if (listScrollStateHolder.firstVisibleItemIndex - scrollOffset > 0)  listScrollStateHolder.firstVisibleItemIndex - scrollOffset else 0
                     scope.launch {
                         listScrollStateHolder.animateScrollToItem(firstVisibleItemIndexedValue)
                     }
                 }
-            }
-        }
-    }
-
-    onFocusEvent {
-        if (isFocused != it.isFocused) {
-            isFocused = it.isFocused
-            if (isFocused) {
-                keyboardAppearedSinceLastFocused = false
             }
         }
     }
