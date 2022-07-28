@@ -33,16 +33,17 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun AppUI() {
-    ShowScreen()
+    var text by remember{ mutableStateOf("")}
+    val updateTextLambdaFn: (String) -> Unit = {text = it}
+    ShowScreen(text = text, onTextChange =  updateTextLambdaFn)
 }
 
 @Composable
-fun ShowScreen() {
-    var text by remember { mutableStateOf("") }
+fun ShowScreen(text: String, onTextChange: (String) -> Unit) {
     Box{
         OutlinedTextField(
             value = text,
-            onValueChange = { text = it },
+            onValueChange = onTextChange,
             label = { Text("Label") }
         )
     }
