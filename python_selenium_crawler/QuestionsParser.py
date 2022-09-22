@@ -2,6 +2,7 @@ import os
 import re
 import time
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -15,7 +16,9 @@ class QuestionsParser():
         all_questions_lists = []
         all_questions_urls_list = []
         os.environ['PATH'] = "/Users/ashutoshkumar/seleniumdrivers"
-        driver = webdriver.Chrome()
+        options = Options()
+        options.headless = True
+        driver = webdriver.Chrome(options=options)
         for url in url_list:
             print("Getting questions from", url)
             driver.get(url)
