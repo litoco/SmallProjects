@@ -14,7 +14,7 @@ with open("Div2.md", "w") as filename:
             url = url.replace('\"','')
             url = str(count) + "." + url
             count += 1
-        filename.write(url + "\n")
+        filename.write(url + " \\\n")
 
 
 # markdown questions link
@@ -33,4 +33,4 @@ with open("Questions.md", "w") as filename:
         url = url.replace('\"','')
         line = str(count) + "." + f"[{code}  {name}]({url})"
         count += 1
-        filename.write(line + "\n")
+        filename.write(line + " \\\n")

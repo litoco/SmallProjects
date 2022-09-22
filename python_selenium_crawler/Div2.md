@@ -1,99 +1,99 @@
 # Contests link
-1.https://codeforces.com/contest/1733
-2.https://codeforces.com/contest/1728
-3.https://codeforces.com/contest/1726
-4.https://codeforces.com/contest/1717
-5.https://codeforces.com/contest/1721
-6.https://codeforces.com/contest/1715
-7.https://codeforces.com/contest/1720
-8.https://codeforces.com/contest/1719
-9.https://codeforces.com/contest/1712
-10.https://codeforces.com/contest/1713
-11.https://codeforces.com/contest/1716
-12.https://codeforces.com/contest/1704
-13.https://codeforces.com/contest/1711
-14.https://codeforces.com/contest/1709
-15.https://codeforces.com/contest/1706
-16.https://codeforces.com/contest/1708
-17.https://codeforces.com/contest/1705
-18.https://codeforces.com/contest/1701
-19.https://codeforces.com/contest/1699
-20.https://codeforces.com/contest/1698
-21.https://codeforces.com/contest/1700
-22.https://codeforces.com/contest/1695
-23.https://codeforces.com/contest/1694
-24.https://codeforces.com/contest/1697
-25.https://codeforces.com/contest/1689
-26.https://codeforces.com/contest/1688
-27.https://codeforces.com/contest/1691
-28.https://codeforces.com/contest/1686
-29.https://codeforces.com/contest/1681
-30.https://codeforces.com/contest/1682
-31.https://codeforces.com/contest/1684
-32.https://codeforces.com/contest/1679
-33.https://codeforces.com/contest/1680
-34.https://codeforces.com/contest/1678
-35.https://codeforces.com/contest/1670
-36.https://codeforces.com/contest/1673
-37.https://codeforces.com/contest/1671
-38.https://codeforces.com/contest/1668
-39.https://codeforces.com/contest/1659
-40.https://codeforces.com/contest/1661
-41.https://codeforces.com/contest/1665
-42.https://codeforces.com/contest/1658
-43.https://codeforces.com/contest/1656
-44.https://codeforces.com/contest/1657
-45.https://codeforces.com/contest/1654
-46.https://codeforces.com/contest/1647
-47.https://codeforces.com/contest/1651
-48.https://codeforces.com/contest/1649
-49.https://codeforces.com/contest/1646
-50.https://codeforces.com/contest/1642
-51.https://codeforces.com/contest/1644
-52.https://codeforces.com/contest/1635
-53.https://codeforces.com/contest/1638
-54.https://codeforces.com/contest/1634
-55.https://codeforces.com/contest/1633
-56.https://codeforces.com/contest/1632
-57.https://codeforces.com/contest/1631
-58.https://codeforces.com/contest/1629
-59.https://codeforces.com/contest/1626
-60.https://codeforces.com/contest/1627
-61.https://codeforces.com/contest/1625
-62.https://codeforces.com/contest/1623
-63.https://codeforces.com/contest/1622
-64.https://codeforces.com/contest/1620
-65.https://codeforces.com/contest/1617
-66.https://codeforces.com/contest/1591
-67.https://codeforces.com/contest/1608
-68.https://codeforces.com/contest/1613
-69.https://codeforces.com/contest/1609
-70.https://codeforces.com/contest/1614
-71.https://codeforces.com/contest/1612
-72.https://codeforces.com/contest/1589
-73.https://codeforces.com/contest/1605
-74.https://codeforces.com/contest/1604
-75.https://codeforces.com/contest/1606
-76.https://codeforces.com/contest/1602
-77.https://codeforces.com/contest/1582
-78.https://codeforces.com/contest/1586
-79.https://codeforces.com/contest/1598
-80.https://codeforces.com/contest/1600
-81.https://codeforces.com/contest/1594
-82.https://codeforces.com/contest/1592
-83.https://codeforces.com/contest/1581
-84.https://codeforces.com/contest/1574
-85.https://codeforces.com/contest/1573
-86.https://codeforces.com/contest/1569
-87.https://codeforces.com/contest/1567
-88.https://codeforces.com/contest/1556
-89.https://codeforces.com/contest/1562
-90.https://codeforces.com/contest/1561
-91.https://codeforces.com/contest/1559
-92.https://codeforces.com/contest/1557
-93.https://codeforces.com/contest/1549
-94.https://codeforces.com/contest/1555
-95.https://codeforces.com/contest/1554
-96.https://codeforces.com/contest/1553
-97.https://codeforces.com/contest/1530
-98.https://codeforces.com/contest/1550
+1.https://codeforces.com/contest/1733 \
+2.https://codeforces.com/contest/1728 \
+3.https://codeforces.com/contest/1726 \
+4.https://codeforces.com/contest/1717 \
+5.https://codeforces.com/contest/1721 \
+6.https://codeforces.com/contest/1715 \
+7.https://codeforces.com/contest/1720 \
+8.https://codeforces.com/contest/1719 \
+9.https://codeforces.com/contest/1712 \
+10.https://codeforces.com/contest/1713 \
+11.https://codeforces.com/contest/1716 \
+12.https://codeforces.com/contest/1704 \
+13.https://codeforces.com/contest/1711 \
+14.https://codeforces.com/contest/1709 \
+15.https://codeforces.com/contest/1706 \
+16.https://codeforces.com/contest/1708 \
+17.https://codeforces.com/contest/1705 \
+18.https://codeforces.com/contest/1701 \
+19.https://codeforces.com/contest/1699 \
+20.https://codeforces.com/contest/1698 \
+21.https://codeforces.com/contest/1700 \
+22.https://codeforces.com/contest/1695 \
+23.https://codeforces.com/contest/1694 \
+24.https://codeforces.com/contest/1697 \
+25.https://codeforces.com/contest/1689 \
+26.https://codeforces.com/contest/1688 \
+27.https://codeforces.com/contest/1691 \
+28.https://codeforces.com/contest/1686 \
+29.https://codeforces.com/contest/1681 \
+30.https://codeforces.com/contest/1682 \
+31.https://codeforces.com/contest/1684 \
+32.https://codeforces.com/contest/1679 \
+33.https://codeforces.com/contest/1680 \
+34.https://codeforces.com/contest/1678 \
+35.https://codeforces.com/contest/1670 \
+36.https://codeforces.com/contest/1673 \
+37.https://codeforces.com/contest/1671 \
+38.https://codeforces.com/contest/1668 \
+39.https://codeforces.com/contest/1659 \
+40.https://codeforces.com/contest/1661 \
+41.https://codeforces.com/contest/1665 \
+42.https://codeforces.com/contest/1658 \
+43.https://codeforces.com/contest/1656 \
+44.https://codeforces.com/contest/1657 \
+45.https://codeforces.com/contest/1654 \
+46.https://codeforces.com/contest/1647 \
+47.https://codeforces.com/contest/1651 \
+48.https://codeforces.com/contest/1649 \
+49.https://codeforces.com/contest/1646 \
+50.https://codeforces.com/contest/1642 \
+51.https://codeforces.com/contest/1644 \
+52.https://codeforces.com/contest/1635 \
+53.https://codeforces.com/contest/1638 \
+54.https://codeforces.com/contest/1634 \
+55.https://codeforces.com/contest/1633 \
+56.https://codeforces.com/contest/1632 \
+57.https://codeforces.com/contest/1631 \
+58.https://codeforces.com/contest/1629 \
+59.https://codeforces.com/contest/1626 \
+60.https://codeforces.com/contest/1627 \
+61.https://codeforces.com/contest/1625 \
+62.https://codeforces.com/contest/1623 \
+63.https://codeforces.com/contest/1622 \
+64.https://codeforces.com/contest/1620 \
+65.https://codeforces.com/contest/1617 \
+66.https://codeforces.com/contest/1591 \
+67.https://codeforces.com/contest/1608 \
+68.https://codeforces.com/contest/1613 \
+69.https://codeforces.com/contest/1609 \
+70.https://codeforces.com/contest/1614 \
+71.https://codeforces.com/contest/1612 \
+72.https://codeforces.com/contest/1589 \
+73.https://codeforces.com/contest/1605 \
+74.https://codeforces.com/contest/1604 \
+75.https://codeforces.com/contest/1606 \
+76.https://codeforces.com/contest/1602 \
+77.https://codeforces.com/contest/1582 \
+78.https://codeforces.com/contest/1586 \
+79.https://codeforces.com/contest/1598 \
+80.https://codeforces.com/contest/1600 \
+81.https://codeforces.com/contest/1594 \
+82.https://codeforces.com/contest/1592 \
+83.https://codeforces.com/contest/1581 \
+84.https://codeforces.com/contest/1574 \
+85.https://codeforces.com/contest/1573 \
+86.https://codeforces.com/contest/1569 \
+87.https://codeforces.com/contest/1567 \
+88.https://codeforces.com/contest/1556 \
+89.https://codeforces.com/contest/1562 \
+90.https://codeforces.com/contest/1561 \
+91.https://codeforces.com/contest/1559 \
+92.https://codeforces.com/contest/1557 \
+93.https://codeforces.com/contest/1549 \
+94.https://codeforces.com/contest/1555 \
+95.https://codeforces.com/contest/1554 \
+96.https://codeforces.com/contest/1553 \
+97.https://codeforces.com/contest/1530 \
+98.https://codeforces.com/contest/1550 \
