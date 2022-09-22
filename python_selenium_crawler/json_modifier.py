@@ -12,9 +12,9 @@ with open("Div2.md", "w") as filename:
     for url in data['urls']:
         if "https" in url:
             url = url.replace('\"','')
-            url = str(count) + "." + url
+            url = str(count) + ". " + url
             count += 1
-        filename.write(url + " \\\n")
+        filename.write(url + " \n")
 
 
 # markdown questions link
@@ -31,6 +31,6 @@ with open("Questions.md", "w") as filename:
         name = info["problem_name"]
         url = info["problem_url"]
         url = url.replace('\"','')
-        line = str(count) + "." + f"[{code}  {name}]({url})"
+        line = str(count) + ". " + f"[{code}  {name}]({url})"
         count += 1
-        filename.write(line + " \\\n")
+        filename.write(line + " \n")
