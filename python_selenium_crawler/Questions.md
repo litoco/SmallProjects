@@ -1,5 +1,4 @@
 # Codeforces questions
-
 1.[1725A  Accumulation of Dominoes](https://codeforces.com/problemset/problem/1725/A)
 2.[818A  Diplomas and Certificates](https://codeforces.com/problemset/problem/818/A)
 3.[760A  Petr and a calendar](https://codeforces.com/problemset/problem/760/A)
