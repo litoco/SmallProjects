@@ -1,0 +1,460 @@
+{
+    "dataList": [
+        {
+            "trainName": "RJPB TEJAS RAJ (12309)",
+            "startTime": "19:35 | PATNA JN | Tue, 25 Oct",
+            "endTime": "07:40 | NEW DELHI | Wed, 26 Oct",
+            "travelTime": "12:05",
+            "availability": [
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "AVAILABLE-0269",
+                    "price": "\u20b9 2415"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "AVAILABLE-0028",
+                    "price": "\u20b9 3345"
+                },
+                {
+                    "compartment": "AC First Class (1A)",
+                    "availability": "AVAILABLE-0003",
+                    "price": "\u20b9 4115"
+                }
+            ]
+        },
+        {
+            "trainName": "S KRANTI SUP EX (12393)",
+            "startTime": "19:45 | PATNA JN | Tue, 25 Oct",
+            "endTime": "07:55 | NEW DELHI | Wed, 26 Oct",
+            "travelTime": "12:10",
+            "availability": [
+                {
+                    "compartment": "Second Sitting (2S)",
+                    "availability": "NOT AVAILABLE",
+                    "price": "\u20b9 305"
+                },
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL67",
+                    "price": "\u20b9 510"
+                },
+                {
+                    "compartment": "AC 3 Economy (3E)",
+                    "availability": "WL6",
+                    "price": "\u20b9 1250"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "WL24",
+                    "price": "\u20b9 1350"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "WL13",
+                    "price": "\u20b9 1910"
+                },
+                {
+                    "compartment": "AC First Class (1A)",
+                    "availability": "WL1",
+                    "price": "\u20b9 3225"
+                }
+            ]
+        },
+        {
+            "trainName": "TEJAS EXPRESS (20501)",
+            "startTime": "22:25 | PATLIPUTRA | Tue, 25 Oct",
+            "endTime": "10:50 | ANAND VIHAR TRM | Wed, 26 Oct",
+            "travelTime": "12:25",
+            "availability": [
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "AVAILABLE-0094",
+                    "price": "\u20b9 2295"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "AVAILABLE-0007",
+                    "price": "\u20b9 3195"
+                },
+                {
+                    "compartment": "AC First Class (1A)",
+                    "availability": "AVAILABLE-0005",
+                    "price": "\u20b9 3925"
+                }
+            ]
+        },
+        {
+            "trainName": "RAJDHANI EXP (12423)",
+            "startTime": "21:50 | PATLIPUTRA | Tue, 25 Oct",
+            "endTime": "10:30 | NEW DELHI | Wed, 26 Oct",
+            "travelTime": "12:40",
+            "availability": [
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "WL2",
+                    "price": "\u20b9 2405"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "WL1",
+                    "price": "\u20b9 3280"
+                },
+                {
+                    "compartment": "AC First Class (1A)",
+                    "availability": "WL1",
+                    "price": "\u20b9 4055"
+                }
+            ]
+        },
+        {
+            "trainName": "ANVT HUMSAFAR (22459)",
+            "startTime": "16:40 | PATNA JN | Tue, 25 Oct",
+            "endTime": "06:25 | ANAND VIHAR TRM | Wed, 26 Oct",
+            "travelTime": "13:45",
+            "availability": [
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL18",
+                    "price": "\u20b9 580"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "RAC 2",
+                    "price": "\u20b9 1530"
+                }
+            ]
+        },
+        {
+            "trainName": "PORVOTR S KRNTI (14037)",
+            "startTime": "22:45 | PATLIPUTRA | Tue, 25 Oct",
+            "endTime": "12:35 | NEW DELHI | Wed, 26 Oct",
+            "travelTime": "13:50",
+            "availability": [
+                {
+                    "compartment": "Second Sitting (2S)",
+                    "availability": "NOT AVAILABLE",
+                    "price": "\u20b9 290"
+                },
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL9",
+                    "price": "\u20b9 480"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "WL3",
+                    "price": "\u20b9 1300"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "WL2",
+                    "price": "\u20b9 1865"
+                },
+                {
+                    "compartment": "AC First Class (1A)",
+                    "availability": "WL1",
+                    "price": "\u20b9 3145"
+                }
+            ]
+        },
+        {
+            "trainName": "POORVA EXPRESS (12303)",
+            "startTime": "16:05 | PATNA JN | Tue, 25 Oct",
+            "endTime": "06:00 | NEW DELHI | Wed, 26 Oct",
+            "travelTime": "13:55",
+            "availability": [
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL22",
+                    "price": "\u20b9 510"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "WL5",
+                    "price": "\u20b9 1350"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "WL2",
+                    "price": "\u20b9 1910"
+                },
+                {
+                    "compartment": "AC First Class (1A)",
+                    "availability": "WL1",
+                    "price": "\u20b9 3225"
+                }
+            ]
+        },
+        {
+            "trainName": "VIKRAMSHILA EXP (12367)",
+            "startTime": "17:05 | PATNA JN | Tue, 25 Oct",
+            "endTime": "07:20 | ANAND VIHAR TRM | Wed, 26 Oct",
+            "travelTime": "14:15",
+            "availability": [
+                {
+                    "compartment": "Second Sitting (2S)",
+                    "availability": "NOT AVAILABLE",
+                    "price": "\u20b9 305"
+                },
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL13",
+                    "price": "\u20b9 510"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "WL5",
+                    "price": "\u20b9 1340"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "WL4",
+                    "price": "\u20b9 1900"
+                },
+                {
+                    "compartment": "AC First Class (1A)",
+                    "availability": "AVAILABLE-0002",
+                    "price": "\u20b9 3205"
+                }
+            ]
+        },
+        {
+            "trainName": "ANVT GARIB RATH (22405)",
+            "startTime": "18:20 | PATNA JN | Tue, 25 Oct",
+            "endTime": "08:50 | ANAND VIHAR TRM | Wed, 26 Oct",
+            "travelTime": "14:30",
+            "availability": [
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "WL16",
+                    "price": "\u20b9 920"
+                }
+            ]
+        },
+        {
+            "trainName": "SEEMANCHAL EXP (12487)",
+            "startTime": "05:20 | PATLIPUTRA | Tue, 25 Oct",
+            "endTime": "20:45 | ANAND VIHAR TRM | Tue, 25 Oct",
+            "travelTime": "15:25",
+            "availability": [
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL4",
+                    "price": "\u20b9 510"
+                },
+                {
+                    "compartment": "AC 3 Economy (3E)",
+                    "availability": "WL1",
+                    "price": "\u20b9 1245"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "WL9",
+                    "price": "\u20b9 1340"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "AVAILABLE-0001",
+                    "price": "\u20b9 1900"
+                }
+            ]
+        },
+        {
+            "trainName": "BRAHMAPUTRA EXP (15658)",
+            "startTime": "12:45 | PATNA JN | Tue, 25 Oct",
+            "endTime": "04:30 | DELHI | Wed, 26 Oct",
+            "travelTime": "15:45",
+            "availability": [
+                {
+                    "compartment": "Second Sitting (2S)",
+                    "availability": "NOT AVAILABLE",
+                    "price": "\u20b9 290"
+                },
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL13",
+                    "price": "\u20b9 480"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "WL1",
+                    "price": "\u20b9 1300"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "WL4",
+                    "price": "\u20b9 1865"
+                }
+            ]
+        },
+        {
+            "trainName": "NORTHEAST EXP (12505)",
+            "startTime": "05:45 | PATLIPUTRA | Tue, 25 Oct",
+            "endTime": "21:50 | ANAND VIHAR TRM | Tue, 25 Oct",
+            "travelTime": "16:05",
+            "availability": [
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL1",
+                    "price": "\u20b9 510"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "AVAILABLE-0015",
+                    "price": "\u20b9 1340"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "AVAILABLE-0002",
+                    "price": "\u20b9 1900"
+                }
+            ]
+        },
+        {
+            "trainName": "SHRAMJEEVI EXP (12391)",
+            "startTime": "10:30 | PATNA JN | Tue, 25 Oct",
+            "endTime": "04:40 | NEW DELHI | Wed, 26 Oct",
+            "travelTime": "18:10",
+            "availability": [
+                {
+                    "compartment": "Second Sitting (2S)",
+                    "availability": "NOT AVAILABLE",
+                    "price": "\u20b9 310"
+                },
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL9",
+                    "price": "\u20b9 520"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "AVAILABLE-0001",
+                    "price": "\u20b9 1365"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "AVAILABLE-0023",
+                    "price": "\u20b9 1940"
+                },
+                {
+                    "compartment": "AC First Class (1A)",
+                    "availability": "AVAILABLE-0005",
+                    "price": "\u20b9 3275"
+                }
+            ]
+        },
+        {
+            "trainName": "MAGADH EXP (20801)",
+            "startTime": "17:30 | PATNA JN | Tue, 25 Oct",
+            "endTime": "11:50 | NEW DELHI | Wed, 26 Oct",
+            "travelTime": "18:20",
+            "availability": [
+                {
+                    "compartment": "Second Sitting (2S)",
+                    "availability": "NOT AVAILABLE",
+                    "price": "\u20b9 305"
+                },
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL14",
+                    "price": "\u20b9 510"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "AVAILABLE-0234",
+                    "price": "\u20b9 1350"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "AVAILABLE-0029",
+                    "price": "\u20b9 1910"
+                },
+                {
+                    "compartment": "AC First Class (1A)",
+                    "availability": "AVAILABLE-0012",
+                    "price": "\u20b9 3225"
+                }
+            ]
+        },
+        {
+            "trainName": "SIKKIMMAHANANDA (15483)",
+            "startTime": "03:20 | PATNA JN | Tue, 25 Oct",
+            "endTime": "21:45 | DELHI | Tue, 25 Oct",
+            "travelTime": "18:25",
+            "availability": [
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL2",
+                    "price": "\u20b9 480"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "WL3",
+                    "price": "\u20b9 1300"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "WL1",
+                    "price": "\u20b9 1865"
+                }
+            ]
+        },
+        {
+            "trainName": "MLDT NDLS EXP (14003)",
+            "startTime": "18:05 | PATNA JN | Tue, 25 Oct",
+            "endTime": "14:30 | NEW DELHI | Wed, 26 Oct",
+            "travelTime": "20:25",
+            "availability": [
+                {
+                    "compartment": "Second Sitting (2S)",
+                    "availability": "NOT AVAILABLE",
+                    "price": "\u20b9 295"
+                },
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "WL8",
+                    "price": "\u20b9 490"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "WL2",
+                    "price": "\u20b9 1320"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "WL5",
+                    "price": "\u20b9 1890"
+                },
+                {
+                    "compartment": "AC First Class (1A)",
+                    "availability": "AVAILABLE-0002",
+                    "price": "\u20b9 3195"
+                }
+            ]
+        },
+        {
+            "trainName": "FARAKKA EXPRESS (13413)",
+            "startTime": "04:55 | PATNA JN | Tue, 25 Oct",
+            "endTime": "04:50 | DELHI | Wed, 26 Oct",
+            "travelTime": "23:55",
+            "availability": [
+                {
+                    "compartment": "Sleeper (SL)",
+                    "availability": "AVAILABLE-0006",
+                    "price": "\u20b9 490"
+                },
+                {
+                    "compartment": "AC 3 Tier (3A)",
+                    "availability": "AVAILABLE-0003",
+                    "price": "\u20b9 1320"
+                },
+                {
+                    "compartment": "AC 2 Tier (2A)",
+                    "availability": "AVAILABLE-0004",
+                    "price": "\u20b9 1890"
+                }
+            ]
+        }
+    ]
+}
