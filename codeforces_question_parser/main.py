@@ -22,7 +22,7 @@ if __name__ == "__main__":
     except:
         print_error()
     
-    difficulties = ["A", "B", "C", "D"]
+    difficulties = ["A", "B", "C", "D", "E"]
     helper = "1. A\n2. B\n3. C\n4. D\n5. E\n"
     difficulty_level = input(f"Enter the difficulty level:\n{helper}")
     difficulty_level.strip()
