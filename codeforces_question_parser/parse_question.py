@@ -20,11 +20,14 @@ class ParseQuestions():
         is_starting_contest_found = False
         self.page_count = 1
         self.arr = []
+        print(f"\nSearching for all {contest_type} contests...")
         self.__get_contests_urls(starting_contest, contest_type, number_of_questions, is_starting_contest_found)
         if len(self.arr) >= 0:
-            print('\033[92m'+f"Test PASSED\nGot {len(self.arr)}/{number_of_questions} contests")
+            string = f"SUCCESSFUL\nFound {len(self.arr)}/{number_of_questions} contests"
+            print(f'\033[92m{string} \033[0;0m')
         else:
-            print('\033[91m'+"Test FAILED\n Length of 'arr' is 0")
+            string = f"0 contests of {contest_type} found"
+            print(f'\033[91m{string} \033[0;0m')
         self.arr = self.arr[:number_of_questions]
         time.sleep(3)
         
@@ -32,9 +35,11 @@ class ParseQuestions():
         self.questions_arr = []
         self.__get_problems_urls(difficulty_level)
         if len(self.questions_arr) > 0:
-            print('\033[92m'+f"Test PASSED\nGot {len(self.questions_arr)}/{number_of_questions} problems")
+            string = f"SUCCESSFUL\nFound {len(self.questions_arr)}/{number_of_questions} problems"
+            print(f'\033[92m{string} \033[0;0m')
         else:
-            print('\033[91m'+"Test FAILED\n Length of questions_arr is", len(self.questions_arr))
+            string = f"0 problems of type {difficulty_level} found"
+            print(f'\033[91m{string} \033[0;0m')
             sys.exit(1)
         time.sleep(3)
         
@@ -43,8 +48,6 @@ class ParseQuestions():
             self.__print_questions_with_urls(self.questions_arr)
 
     def __get_contests_urls(self, starting_contest, contest_type, number_of_questions, is_starting_contest_found):
-        print(f"\nSearching page {self.page_count} for {contest_type} contests...")
-        self.page_count += 1
 
         driver = self.driver
         arr = self.arr
@@ -80,7 +83,9 @@ class ParseQuestions():
 
     def __get_problems_urls(self, difficulty_level):
         driver = self.driver
-        for contest_details in self.arr[::-1]:
+        contest_number = 1
+        print(f"\nSearching {difficulty_level}'s from all contests")
+        for contest_details in self.arr:
             # load the webpage
             driver.get(contest_details[1])
 
@@ -88,11 +93,12 @@ class ParseQuestions():
             all_contest_problems_table = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((webdriver.common.by.By.CSS_SELECTOR, "table.problems")))
 
             # get question with given rating and store it
-            problem_a_urls = all_contest_problems_table.find_elements(webdriver.common.by.By.TAG_NAME, "a")
-            for problem in problem_a_urls:
-                if problem.text == difficulty_level:
-                    problem_a_url = problem.get_attribute('href')
-                    self.questions_arr.append([contest_details[0], problem_a_url])
+            problem_urls = all_contest_problems_table.find_elements(webdriver.common.by.By.TAG_NAME, "a")
+            for problem in problem_urls:
+                if not len(self.questions_arr) or self.questions_arr[-1][1] != problem.get_attribute('href'):
+                    problem_url = problem.get_attribute('href').split("/")
+                    if "problem" == problem_url[-2] and difficulty_level in problem_url[-1]:
+                        self.questions_arr.append([contest_details[0]+" "+problem_url[-1], "/".join(problem_url)])
 
 
 
