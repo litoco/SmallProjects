@@ -16,20 +16,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.migrateittocompose.repository.Repository
-import com.example.migrateittocompose.repository.localstorage.RoomLocalDatabase
 import com.example.migrateittocompose.viewmodel.AppViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val database by lazy { RoomLocalDatabase.getDatabase(this) }
-        val repository by lazy { Repository(database.getRoomDAO()) }
-
         setContent {
             MaterialTheme {
-                MainScreen(repository)
+                MainScreen()
             }
         }
     }
@@ -37,11 +32,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MainScreen(
-    repository: Repository,
     viewModel: AppViewModel = viewModel()
 ) {
     val lifecycleOwner = LocalLifecycleOwner.current
-    ShowUI(text = viewModel.messageData) { viewModel.getUserId(repository, lifecycleOwner) }
+    ShowUI(text = viewModel.messageData) { viewModel.getUserId( lifecycleOwner) }
 }
 
 @Composable
@@ -55,6 +49,5 @@ fun ShowUI(text:String, getUserId: ()-> Unit) {
         Button(onClick = getUserId ) {
             Text(text = "Click me")
         }
-
     }
 }
